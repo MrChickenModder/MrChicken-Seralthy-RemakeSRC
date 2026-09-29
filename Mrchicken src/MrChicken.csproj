@@ -1,0 +1,98 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MrChicken</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="SeralythMenu.LICENSE" />
+    <None Remove="SeralythMenu.Resources.Client.seralythmenu" />
+    <None Remove="SeralythMenu.Resources.Client.debug.png" />
+    <None Remove="SeralythMenu.Resources.Client.disco_ball.png" />
+    <None Remove="SeralythMenu.Resources.Client.donate.png" />
+    <None Remove="SeralythMenu.Resources.Client.favorite.png" />
+    <None Remove="SeralythMenu.Resources.Client.folder.png" />
+    <None Remove="SeralythMenu.Resources.Client.icon.png" />
+    <None Remove="SeralythMenu.Resources.Client.left1.png" />
+    <None Remove="SeralythMenu.Resources.Client.left2.png" />
+    <None Remove="SeralythMenu.Resources.Client.left3.png" />
+    <None Remove="SeralythMenu.Resources.Client.return.png" />
+    <None Remove="SeralythMenu.Resources.Client.right1.png" />
+    <None Remove="SeralythMenu.Resources.Client.right2.png" />
+    <None Remove="SeralythMenu.Resources.Client.right3.png" />
+    <None Remove="SeralythMenu.Resources.Client.search.png" />
+    <None Remove="SeralythMenu.Resources.Client.star.png" />
+    <None Remove="SeralythMenu.Resources.Client.update.png" />
+    <EmbeddedResource Include="SeralythMenu.LICENSE" LogicalName="SeralythMenu.LICENSE" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.seralythmenu" LogicalName="SeralythMenu.Resources.Client.seralythmenu" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.debug.png" LogicalName="SeralythMenu.Resources.Client.debug.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.disco_ball.png" LogicalName="SeralythMenu.Resources.Client.disco_ball.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.donate.png" LogicalName="SeralythMenu.Resources.Client.donate.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.favorite.png" LogicalName="SeralythMenu.Resources.Client.favorite.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.folder.png" LogicalName="SeralythMenu.Resources.Client.folder.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.icon.png" LogicalName="SeralythMenu.Resources.Client.icon.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.left1.png" LogicalName="SeralythMenu.Resources.Client.left1.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.left2.png" LogicalName="SeralythMenu.Resources.Client.left2.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.left3.png" LogicalName="SeralythMenu.Resources.Client.left3.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.return.png" LogicalName="SeralythMenu.Resources.Client.return.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.right1.png" LogicalName="SeralythMenu.Resources.Client.right1.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.right2.png" LogicalName="SeralythMenu.Resources.Client.right2.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.right3.png" LogicalName="SeralythMenu.Resources.Client.right3.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.search.png" LogicalName="SeralythMenu.Resources.Client.search.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.star.png" LogicalName="SeralythMenu.Resources.Client.star.png" />
+    <EmbeddedResource Include="SeralythMenu.Resources.Client.update.png" LogicalName="SeralythMenu.Resources.Client.update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MelonLoader" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="BepInEx" />
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule" />
+    <Reference Include="UnityEngine.UnityWebRequestModule" />
+    <Reference Include="UnityEngine.XRModule" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="PhotonRealtime" />
+    <Reference Include="PhotonUnityNetworking" />
+    <Reference Include="PlayFab" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Photon3Unity3D" />
+    <Reference Include="LIV.LCK" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="Modio" />
+    <Reference Include="PhotonVoice" />
+    <Reference Include="PhotonVoice.API" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="Unity.Burst" />
+    <Reference Include="Valve.Newtonsoft.Json" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="Unity.InputSystem" />
+    <Reference Include="UnityEngine.VideoModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="UnityEngine.VRModule" />
+    <Reference Include="LIV.LCK_GorillaTag" />
+    <Reference Include="Unity.Localization" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" />
+    <Reference Include="Unity.Cinemachine" />
+    <Reference Include="UnityEngine.ScreenCaptureModule" />
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="PhotonVoice.PUN" />
+    <Reference Include="SteamVR_Actions" />
+    <Reference Include="SteamVR" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="Unity.Addressables" />
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime" />
+    <Reference Include="UnityEngine.AnimationModule" />
+  </ItemGroup>
+</Project>
