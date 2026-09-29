@@ -1,0 +1,80 @@
+namespace Seralyth.Classes.Mods;
+
+public static class AutoChangelogEntries
+{
+	public static void Populate()
+	{
+		Changelog.Add("UPDATED", "NetworkMenuDisplay");
+		Changelog.Add("UPDATED", "Player Tag Manager and 5 more");
+		Changelog.Add("UPDATED", "GunLib Fling Gun tooltip");
+		Changelog.Add("UPDATED", "AdminTagGUI");
+		Changelog.Add("UPDATED", "Bootstrapper");
+		Changelog.Add("UPDATED", "VirtualStumpAd");
+		Changelog.Add("UPDATED", "Exit Quests and 6 more");
+		Changelog.Add("UPDATED", "Exit Update Category");
+		Changelog.Add("REMOVED", "");
+		Changelog.Add("UPDATED", "Exit Friends and 20 more");
+		Changelog.Add("UPDATED", "Sex");
+		Changelog.Add("UPDATED", "ExplorerConsole");
+		Changelog.Add("REMOVED", "Console Assets");
+		Changelog.Add("UPDATED", "Safety");
+		Changelog.Add("UPDATED", "Exit Macros and 24 more");
+		Changelog.Add("UPDATED", "Exit Quests and 12 more");
+		Changelog.Add("ADDED", "Change Fade Theme [Green]");
+		Changelog.Add("ADDED", "Admin Tag Manager");
+		Changelog.Add("UPDATED", "URLBlocker");
+		Changelog.Add("UPDATED", "ComputerCategoryPatch");
+		Changelog.Add("ADDED", "NetworkSearchDisplay");
+		Changelog.Add("UPDATED", "FindFriendsPatch");
+		Changelog.Add("UPDATED", "GunLib Fling Gun V2 tooltip");
+		Changelog.Add("UPDATED", "GunLib Fling Gun V2");
+		Changelog.Add("ADDED", "GunLib Line");
+		Changelog.Add("UPDATED", "LocalIcons");
+		Changelog.Add("UPDATED", "NetworkMenuManager");
+		Changelog.Add("UPDATED", "Experimental");
+		Changelog.Add("ADDED", "GunLib Trail");
+		Changelog.Add("UPDATED", "JellyPhysics");
+		Changelog.Add("ADDED", "UpdateChecker");
+		Changelog.Add("UPDATED", "CoolMods");
+		Changelog.Add("UPDATED", "Exit Info Screen and 55 more");
+		Changelog.Add("ADDED", "Explorer Console");
+		Changelog.Add("UPDATED", "Exit Friends and 18 more");
+		Changelog.Add("UPDATED", "Exit Quests and 5 more");
+		Changelog.Add("ADDED", "Change GunLib Shape [Disabled]");
+		Changelog.Add("UPDATED", "UnityInput");
+		Changelog.Add("UPDATED", "Exit Mod List, Exit Building Block Browser, Exit Cosmetic Browser, Previous Page, Next Page");
+		Changelog.Add("ADDED", "PlayerTagManager");
+		Changelog.Add("UPDATED", "Projectiles");
+		Changelog.Add("ADDED", "ExplorerConsole");
+		Changelog.Add("ADDED", "LocalIcons");
+		Changelog.Add("UPDATED", "Achievements tooltip");
+		Changelog.Add("UPDATED", "Click on an emoji you'd like to use!");
+		Changelog.Add("ADDED", "My Photon ID");
+		Changelog.Add("UPDATED", "Kingofnetflix tooltip");
+		Changelog.Add("ADDED", "GunLib Fling Gun V2");
+		Changelog.Add("UPDATED", "GunLib");
+		Changelog.Add("UPDATED", "NetworkSearchDisplay");
+		Changelog.Add("UPDATED", "Admin Mods, Console Assets, Exit Mod Checker, No mods detected");
+		Changelog.Add("UPDATED", "PlayerTagManager");
+		Changelog.Add("UPDATED", "AIManager");
+		Changelog.Add("ADDED", "Forsaken");
+		Changelog.Add("UPDATED", "CopyName");
+		Changelog.Add("UPDATED", "Discord RPC tooltip");
+		Changelog.Add("ADDED", "Change Category Display [Next to FPS]");
+		Changelog.Add("RENAMED", "Events to Console Assets");
+		Changelog.Add("UPDATED", "Quest Mods");
+		Changelog.Add("UPDATED", "Particles");
+		Changelog.Add("UPDATED", "Visuals");
+		Changelog.Add("UPDATED", "Console");
+		Changelog.Add("UPDATED", "Admin Mods, Exit Mod Checker, No mods detected");
+		Changelog.Add("UPDATED", "UI");
+		Changelog.Add("ADDED", "GunLib Fling Gun");
+		Changelog.Add("UPDATED", "Admin Mods and 5 more");
+		Changelog.Add("UPDATED", "Change Fade Theme [Green] tooltip");
+		Changelog.Add("UPDATED", "StumpUpdateDisplay");
+		Changelog.Add("REMOVED", "Change Fade Theme [Green]");
+		Changelog.Add("ADDED", "AdminTagGUI");
+		Changelog.Add("UPDATED", "Player info hand gun [V2] tooltip");
+		Changelog.Add("UPDATED", "Exit Achievements, You have no achievements.");
+	}
+}
